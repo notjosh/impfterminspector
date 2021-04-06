@@ -37,17 +37,11 @@ const fetchNextAvailability = async (url: string): Promise<Result> => {
 };
 
 // const fetchNextAvailabilityMock = async (url: string): Promise<Result> => {
-//   const next = '2021-06-15';
+//   const next = '2030-01-01';
 //   const data = {
-//     total: 0,
-//     availabilities: [
-//       { date: '2021-04-06', slots: [] },
-//       { date: '2021-04-07', slots: [] },
-//       { date: '2021-04-08', slots: [] },
-//       { date: '2021-04-09', slots: [] },
-//       { date: '2021-04-10', slots: [] },
-//     ],
-//     next_slot: '2021-06-05',
+//     total: -1,
+//     availabilities: [],
+//     next_slot: '2030-01-01',
 //   };
 
 //   return new Promise((resolve) => {
