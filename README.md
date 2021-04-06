@@ -6,7 +6,7 @@ https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_i
 
 Private insurance
 BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
 
 # Messe Berlin
 
