@@ -3,7 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 const project = path.join(__dirname, '../tsconfig.json');
-const dev = fs.existsSync(project);
+const dist = path.join(__dirname, '../dist');
+// const dev = fs.existsSync(project);
+const dev = !fs.existsSync(dist);
 
 if (dev) {
   require('ts-node').register({ project });
