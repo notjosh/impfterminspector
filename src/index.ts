@@ -10,8 +10,9 @@ import chalk from 'chalk';
 import daysUntil from './util/daysUntil';
 import fs from 'fs';
 import Path from 'path';
+import { yyyymmddhhmmss } from './util/date';
 
-const limit = pLimit(5);
+const limit = pLimit(12);
 
 export const run = async () => {
   const sources = bookingSources.map((bookingSource) => ({
@@ -39,14 +40,14 @@ export const run = async () => {
       )}`;
 
       try {
-        const result = await fetchNextAvailability(source.url);
+        const response = await fetchNextAvailability(source.url);
 
         throbber
           .succeed(
             `${summary}: ${
-              result.next != null
+              response.next != null
                 ? chalk.bold.green(
-                    `${result.next} (${daysUntil(result.next).toString(
+                    `${response.next} (${daysUntil(response.next).toString(
                       10
                     )} days)`
                   )
@@ -59,7 +60,7 @@ export const run = async () => {
 
         return {
           source,
-          result,
+          response,
         };
       } catch (error) {
         return {
@@ -85,7 +86,7 @@ export const run = async () => {
   };
 
   const dir = Path.join(process.cwd(), 'data');
-  const filename = `${new Date().getTime().toString(10)}.json`;
+  const filename = `${yyyymmddhhmmss()}.json`;
   const path = Path.join(dir, filename);
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);

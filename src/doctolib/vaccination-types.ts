@@ -1,6 +1,6 @@
 export enum VaccinationType {
-  BIONTECH_PFIZER,
-  ASTRAZENECA,
+  BIONTECH_PFIZER = 'biontech_pfizer',
+  ASTRAZENECA = 'astrazeneca',
 }
 
 export const visitMotiveIds: Record<VaccinationType, string> = {

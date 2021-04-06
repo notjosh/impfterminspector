@@ -1,6 +1,6 @@
 export enum InsuranceType {
-  PUBLIC,
-  PRIVATE,
+  PUBLIC = 'public',
+  PRIVATE = 'private',
 }
 
 export const insuranceTypes: Record<InsuranceType, string> = {

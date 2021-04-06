@@ -2,7 +2,7 @@ import urlcat from 'urlcat';
 import { insuranceTypes } from '../doctolib/insurance-types';
 import { BookingSource } from '../doctolib/types';
 import { visitMotiveIds } from '../doctolib/vaccination-types';
-import yyyymmdd from './yyyymmdd';
+import { yyyymmdd } from './date';
 
 const alwaysParams = {
   telehealth: 'false',
