@@ -1,6 +1,5 @@
-const daysUntil = (str: string): number => {
+const daysUntil = (str: string, today = new Date()): number => {
   const future = new Date(str);
-  const today = new Date();
   today.setHours(0, 0, 0, 0);
 
   const diffInMilliSeconds =
