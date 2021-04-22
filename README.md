@@ -1,57 +1,24 @@
 # Arena Berlin
 
-Public insurance
 BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397766-397800-397776-402408&practice_ids=158431&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-22&visit_motive_ids=2495719&agenda_ids=397766-397800-402408-397776&practice_ids=158431&telehealth=false&destroy_temporary=true&limit=5
 
 # Messe Berlin
 
-Public insurance
 BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397845-397846-404659-397844&practice_ids=158434&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397845-397846-404659-397844&practice_ids=158434&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-22&visit_motive_ids=2495719&agenda_ids=397844-397846-457504-397845-457511-457405-457406-457411-457415-457416-457418-457426-457436-457439-457443-457453-457477-457487-457497-404659-457400-457404-457407-457408-457409-457410-457412-457414-457419-457420-457421-457424-457425-457427-457428-457429-457430-457432-457435-457442-457448-457457-457463-457470-457483-457489-457493&practice_ids=158434&telehealth=false&destroy_temporary=true&limit=5
 
 # Flughafen Berlin-Tegel/ Terminal C
 
-Public insurance
 BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Public insurance
-AstraZeneca
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2597576&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-AstraZeneca
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2597576&agenda_ids=404656-397841-397843-397842&practice_ids=158436&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-22&visit_motive_ids=2495719&agenda_ids=397843-457297-397841-397842-457512-457515-457460-457514-457363-457500-404656-457510-457513-457268-457285-457293-457324-457341-457250-457251-457252-457253-457254-457255-457256-457263-457264-457265-457266-457267-457271-457275-457276-457277-457279-457281-457282-457286-457287-457289-457290-457292-457294-457295-457300-457301-457303-457309-457317-457323-457326-457331-457333-457338-457343-457349-457358-457399-457413&practice_ids=158436&telehealth=false&destroy_temporary=true&limit=5
 
 # Flughafen Tempelhof/ Hangar 4
 
-Public insurance
 AstraZeneca
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2597576&agenda_ids=397955-397960-397956-404658&practice_ids=158433&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-AstraZeneca
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2597576&agenda_ids=397955-397960-397956-404658&practice_ids=158433&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-22&visit_motive_ids=2597576&agenda_ids=404658-397955-397960-397956&practice_ids=158433&telehealth=false&destroy_temporary=true&limit=5
 
 # Velodrom Berlin
 
-Public insurance
 BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397973-404654-397972-397974&practice_ids=158435&insurance_sector=public&telehealth=false&destroy_temporary=true&limit=5
-
-Private insurance
-BioNTech-Pfizer
-https://www.doctolib.de/availabilities.json?start_date=2021-04-06&visit_motive_ids=2495719&agenda_ids=397973-404654-397972-397974&practice_ids=158435&insurance_sector=private&telehealth=false&destroy_temporary=true&limit=5
+https://www.doctolib.de/availabilities.json?start_date=2021-04-22&visit_motive_ids=2495719&agenda_ids=457319-404654-457312-457215-397973-457206-457227-457204-457208-457229-457280-457296-397974-397972-457310-457210-457212-457213-457216-457218-457274-457278-457283-457288-457291-457299-457304-457306-457315-457321&practice_ids=158435&telehealth=false&destroy_temporary=true&limit=5
