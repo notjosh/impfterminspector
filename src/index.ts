@@ -12,7 +12,7 @@ import fs from 'fs';
 import Path from 'path';
 import { yyyymmddhhmmss } from './util/date';
 
-const limit = pLimit(12);
+const limit = pLimit(15);
 
 export const run = async () => {
   const sources = bookingSources.map((bookingSource) => ({

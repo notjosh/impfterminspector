@@ -68,4 +68,10 @@ export const bookingSources: BookingSource[] = [
     insurance: InsuranceType.PRIVATE,
     vaccination: VaccinationType.BIONTECH_PFIZER,
   },
+
+  {
+    site: VaccinationSite.eisstadion,
+    insurance: InsuranceType.PUBLIC,
+    vaccination: VaccinationType.MODERNA,
+  },
 ];

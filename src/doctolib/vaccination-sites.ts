@@ -178,3 +178,31 @@ export const velodrom: VaccinationSite = {
     ],
   },
 };
+
+export const eisstadion: VaccinationSite = {
+  name: 'Erika-Heß-Eisstadion',
+  doctolib: {
+    practiceId: '158437',
+    agendaIds: [
+      '457956',
+      '457945',
+      '457946',
+      '457955',
+      '457943',
+      '457944',
+      '457953',
+      '457902',
+      '457920',
+      '457973',
+      '457959',
+      '457960',
+      '457961',
+      '457903',
+      '457906',
+      '457910',
+      '457936',
+      '457901',
+      '457913',
+    ],
+  },
+};
