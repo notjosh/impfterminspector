@@ -23,7 +23,9 @@ const makeUrl = (bookingSource: BookingSource) => {
 
   const start_date = yyyymmdd();
   const visit_motive_ids = visitMotiveIds[bookingSource.vaccination];
-  const agenda_ids = bookingSource.site.doctolib.agendaIds.join('-');
+  const agenda_ids = (
+    bookingSource.override?.agendaIds ?? bookingSource.site.doctolib.agendaIds
+  ).join('-');
   const practice_ids = bookingSource.site.doctolib.practiceId;
   const insurance_sector = insuranceTypes[bookingSource.insurance];
 

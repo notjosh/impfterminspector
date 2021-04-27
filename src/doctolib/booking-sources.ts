@@ -46,6 +46,14 @@ export const bookingSources: BookingSource[] = [
     insurance: InsuranceType.PRIVATE,
     vaccination: VaccinationType.ASTRAZENECA,
   },
+  {
+    site: VaccinationSite.tegel,
+    insurance: InsuranceType.PUBLIC,
+    vaccination: VaccinationType.MODERNA,
+    override: {
+      agendaIds: ['465532', '465526', '465527', '465534'],
+    },
+  },
 
   {
     site: VaccinationSite.tempelhof,

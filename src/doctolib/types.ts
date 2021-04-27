@@ -13,4 +13,7 @@ export type BookingSource = {
   site: VaccinationSite;
   vaccination: VaccinationType;
   insurance: InsuranceType;
+  override?: {
+    agendaIds?: VaccinationSite['doctolib']['agendaIds'];
+  };
 };
