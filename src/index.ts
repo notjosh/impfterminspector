@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import logSymbols from 'log-symbols';
 import ora from 'ora';
 import fetchNextAvailability from './api/fetchNextAvailability';

@@ -9,7 +9,23 @@ type Result = {
 };
 
 const fetchNextAvailability = async (url: string): Promise<Result> => {
-  const response = await axios.get<Response>(url);
+  let cookies = {};
+
+  if (process.env.CF_BM != null) {
+    console.log(`using custom cookie: ${process.env.CF_BM}`);
+    cookies = {
+      Cookie: `__cf_bm=${process.env.CF_BM}`,
+    };
+  }
+
+  const response = await axios.get<Response>(url, {
+    withCredentials: true,
+    headers: {
+      ...cookies,
+      'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15',
+    },
+  });
 
   const { data } = response;
 
